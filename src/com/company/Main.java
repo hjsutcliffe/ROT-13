@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    //TODO: add functionality that asks for encode or decode
+    //TODO: add ROT-5
 
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
