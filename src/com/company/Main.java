@@ -29,6 +29,10 @@ public class Main {
                 c -= 13;
             } else if (c >= 'N' && c <= 'Z') {
                 c -= 13;
+            } else if (c >= '0' && c <= '4') {
+                c = c += 5;
+            } else if (c >= '5' && c <= '9') {
+                c = c -= 5;
             }
             encodedString.append(c);
         }
