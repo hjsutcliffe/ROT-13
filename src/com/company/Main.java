@@ -7,13 +7,6 @@ public class Main {
     //TODO: add ROT-5
 
     public static void main(String[] args) {
-        Scanner reader = new Scanner(System.in);
-        while (true) {
-            System.out.println("Enter a string: ");
-            String input = reader.nextLine();
-            System.out.println(encode(input));
-            System.out.println();
-        }
 
     }
 
